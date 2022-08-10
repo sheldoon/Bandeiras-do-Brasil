@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Eq-eN-sCp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BrandeirasDoBrasil" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mF-pO-SnB">
+                                <rect key="frame" x="107" y="328" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5rU-Bd-BUa"/>
+                                    <constraint firstAttribute="width" constant="200" id="uah-eO-GiF"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Mato_Grosso_do_Sul" title=""/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cf5-6D-rUT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pX1-ad-fPM">
+                                <rect key="frame" x="107" y="468" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="IZn-mO-ufW"/>
+                                    <constraint firstAttribute="width" constant="200" id="kLg-0q-011"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Sao_Paulo" title=""/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcx-iI-dcm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqH-YJ-ppe">
+                                <rect key="frame" x="107" y="188" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="60q-l8-IyQ"/>
+                                    <constraint firstAttribute="height" constant="100" id="gl7-6m-8HO"/>
+                                    <constraint firstAttribute="width" constant="200" id="uqn-xO-qg6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Acre" title=""/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2D-sG-Zzr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3K-3V-MYE">
+                                <rect key="frame" x="107" y="608" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="DY3-Yj-lr6"/>
+                                    <constraint firstAttribute="width" constant="200" id="eQH-cU-f0j"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Minas_Gerais"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xz8-Pg-i3E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D3K-3V-MYE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3vI-gQ-WyG"/>
+                            <constraint firstItem="pX1-ad-fPM" firstAttribute="top" secondItem="1mF-pO-SnB" secondAttribute="bottom" constant="40" id="6DE-M4-1s4"/>
+                            <constraint firstItem="1mF-pO-SnB" firstAttribute="top" secondItem="nqH-YJ-ppe" secondAttribute="bottom" constant="40" id="K3M-lg-yqO"/>
+                            <constraint firstItem="1mF-pO-SnB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S84-62-kCr"/>
+                            <constraint firstItem="nqH-YJ-ppe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="fmp-Td-eqq"/>
+                            <constraint firstItem="nqH-YJ-ppe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="izH-T7-cOs"/>
+                            <constraint firstItem="D3K-3V-MYE" firstAttribute="top" secondItem="pX1-ad-fPM" secondAttribute="bottom" constant="40" id="kEb-P7-bRU"/>
+                            <constraint firstItem="nqH-YJ-ppe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="m1V-BM-sfB"/>
+                            <constraint firstItem="nqH-YJ-ppe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="nDg-yf-ohO"/>
+                            <constraint firstItem="pX1-ad-fPM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w1t-I5-uNC"/>
+                            <constraint firstItem="nqH-YJ-ppe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y34-dz-pWr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="A2p-iS-qAp"/>
+                    <connections>
+                        <outlet property="button1" destination="nqH-YJ-ppe" id="eg7-9g-VTa"/>
+                        <outlet property="button2" destination="1mF-pO-SnB" id="Y1M-r7-AxM"/>
+                        <outlet property="button3" destination="pX1-ad-fPM" id="KKd-I1-Jlb"/>
+                        <outlet property="button4" destination="D3K-3V-MYE" id="IKJ-ca-FoU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Ta-FD-Bsq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Eq-eN-sCp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EmN-OA-kxX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MH8-mU-pXe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7x2-3u-N9F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Acre" width="200" height="100"/>
+        <image name="Mato_Grosso_do_Sul" width="171" height="120"/>
+        <image name="Minas_Gerais" width="171" height="120"/>
+        <image name="Sao_Paulo" width="180" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
